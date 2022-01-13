@@ -7,9 +7,8 @@ etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
 etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
 etc/acdbdata/MTP/msm8976-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
 
-
 # Camera
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|6f07ae0df3328fa79728dbf991300282
 lib/libRecoFace.so:vendor/lib/libRecoFace.so
 vendor/lib/lib-imscamera.so
 vendor/lib/libarcsoft_beauty_shot.so
@@ -21,21 +20,21 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_cpp_module.so|a7a297e71668d989343d1df93ac5ce45
 vendor/lib/libmmcamera2_dcrf.so
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_iface_modules.so|878f63bb231ea9ac7a9966ece3376e4d
+vendor/lib/libmmcamera2_imglib_modules.so|1e5e620a2bc5942e11f389e27498643a
 vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_isp_modules.so|4be372031a119facdacc9d6d2bded1d3
+vendor/lib/libmmcamera2_mct.so|b7486ccc745b431f9aa5bc2d87af9326
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_pproc_modules.so
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_debug.so
-vendor/lib/libmmcamera2_sensor_modules.so|943bd5840adaef2020f4fbe625f8a20358a6c408
+vendor/lib/libmmcamera2_sensor_modules.so|1208414061c31613c4d067c0e64e05fa
 vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_stats_modules.so|c85c81f3b1d4b9b2f84038220caeb45e
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/libmmcamera_chromaflash_lib.so
@@ -45,7 +44,7 @@ vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imglib.so|c2d54bd89b2f3dfe06f0639dabc1cba0
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
@@ -80,13 +79,13 @@ vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libmmcamera_isp_wb40.so
 vendor/lib/libmmcamera_optizoom_lib.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_pdafcamif.so
+vendor/lib/libmmcamera_pdaf.so|f1887bc51d4eaa12355f0318d43d08e8
+vendor/lib/libmmcamera_pdafcamif.so|29e64d30cdcd2010c834a07fe13d7eed
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_tintless_algo.so|2fe34a671195fa474113e4f1ce126ddb
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so|31e032f87dc935454f7ca571a135b364
+vendor/lib/libmmcamera_tuning.so|5b18803792c962a73eef4d2eea45e919
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera_vpu_module.so
