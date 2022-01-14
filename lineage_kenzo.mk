@@ -15,10 +15,8 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-
 # Inherit some common Lineage stuff.
 #$(call inherit-product, vendor/lineage/common.mk)
-
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
@@ -36,7 +34,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="kenzo-user 6.0.1 MMB29M V8.2.1.0.MHOCNDL release-keys"
 
 BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-keys
-
-# Product packages
-TARGET_USE_JELLY := true
 
